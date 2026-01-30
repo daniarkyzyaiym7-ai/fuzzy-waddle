@@ -1,6 +1,5 @@
-s = input()
-
-if s.isdigit():
-    print("int")
+a=int(input())
+if a%2==0:
+    print("even")
 else:
-    print("str")
+    print("odd")
